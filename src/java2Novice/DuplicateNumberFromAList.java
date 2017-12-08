@@ -5,6 +5,7 @@ import java.util.*;
 public class DuplicateNumberFromAList
 {
 	/* Find out duplicate number between 1 to N numbers */
+	/* Works only for sequential numbers*/
 	
 	public static void main(String args[])
 	{
@@ -31,14 +32,15 @@ public class DuplicateNumberFromAList
 	public static int findDupNumberUsingList(List<Integer> num)
 	{
 		int highestNumber = num.size()-1;
-		System.out.println("highestNumber.....: " + highestNumber);
+//		System.out.println("highestNumber.....: " + highestNumber);
 		
 		int total = getSum(num);
-		System.out.println("total.....: " + total);
+//		System.out.println("total.....: " + total);
+		
+		/* Based on the formula for "Sum of n natural numbers = n(n+1)/2 "*/
 		
 		int duplicate = total - ( highestNumber * ( highestNumber + 1 )/2 );
-		System.out.println("duplicate.....: " + duplicate);
-		
+//		System.out.println("duplicate.....: " + duplicate);
 		
 		return duplicate;
 	}
