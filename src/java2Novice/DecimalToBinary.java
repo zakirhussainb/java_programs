@@ -23,9 +23,6 @@ public class DecimalToBinary
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		printBinaryFormat(num);
-		
-//		num = 45;
-//		System.out.println(Integer.toBinaryString(num));
 		sc.close();
 	}
 
