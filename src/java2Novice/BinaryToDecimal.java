@@ -31,8 +31,6 @@ public class BinaryToDecimal
 		int binNum = sc.nextInt();
 		int result = printDecimalFormat(binNum);
 		System.out.println("Decimal Equivalent for the given binary No. is... " + result);
-		
-//		System.out.println("Direct method...." + binNum.toDecimalString());
 		sc.close();
 	}
 
