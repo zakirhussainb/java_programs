@@ -17,9 +17,9 @@ public class TestLogic_Calculation
 	@Test
 	public void testReverseWord()
 	{
-		 System.out.println("test case reverse word"); 
-		 System.out.println("reverse word...." + Calculation.reverseWord("my name is khan"));
-	     assertEquals("ym eman si nahk",Calculation.reverseWord("my name is khan"));  
+//		 System.out.println("test case reverse word"); 
+//		 System.out.println("reverse word...." + Calculation.reverseWord("my name is khan"));
+	     assertEquals("rikaz",Calculation.reverseWord("zakir"));
 	}
 
 }

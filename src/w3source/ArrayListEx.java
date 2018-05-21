@@ -1,14 +1,16 @@
 package w3source;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Iterator;
+
 public class ArrayListEx 
 {
 
 	public static void main(String[] args) 
 	{
-		List<String> list_1 = new ArrayList<String>();
+		List<String> list_1 = new ArrayList<>();
 		list_1.add("red");
 		list_1.add("blue");
 		list_1.add("orange");
@@ -42,17 +44,17 @@ public class ArrayListEx
 		Collections.copy(list_1, list_2);
 		
 		
-		printElements(list_1);
+		printElements();
 		
 		
 	}
-	public static void printElements(List<String> alm)
+	public static void printElements()
 	{
 		System.out.println("\nPrinting List Elements...");
-		Iterator<String> itr = alm.iterator();
-		while( itr.hasNext() )
-		{
-			System.out.println("itr..." + itr.next());
-		}
+//		Iterator<String> itr = alm.iterator();
+//		while( itr.hasNext() )
+//		{
+//			System.out.println("itr..." + itr.next());
+//		}
 	}
 }

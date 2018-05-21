@@ -2,7 +2,7 @@ package java2Novice;
 import java.util.*;
 public class DecimalToBinary 
 {
-	public static void printBinaryFormat(int num)
+	public static void convertFromDecimalToBinary(int num)
 	{
 		int binary[] = new int[25];
 		int index = 0;
@@ -22,7 +22,7 @@ public class DecimalToBinary
 		System.out.println("Enter the decimal number to be coverted to binary...: ");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		printBinaryFormat(num);
+		convertFromDecimalToBinary(num);
 		sc.close();
 	}
 

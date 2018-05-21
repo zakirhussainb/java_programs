@@ -2,7 +2,7 @@ package mainJava;
 
 import java.io.*;
 
-public class MoveToTrash {
+public class MoveToTrash extends Thread{
 
 	public static void main(String[] args) 
 	{

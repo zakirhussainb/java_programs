@@ -24,7 +24,7 @@ public class Client
 		
 		Factory factory = StatementFactory.getUniqueInstance();
 		System.out.println("factory....: " + factory);
-		System.exit(-1);
+//		System.exit(-1);
 		StatementType objStmtType = factory.createStatements(selection);
 		System.out.println(objStmtType.print());
 
